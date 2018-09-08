@@ -179,8 +179,8 @@ class DBHelper {
 
 }
 
-//if ('serviceWorker' in navigator) {
-/*     window.addEventListener('load', function() {
+if ('serviceWorker' in navigator) {
+     window.addEventListener('load', function() {
         navigator.serviceWorker.register('/service_worker.js').then(function(registration) {
             // Registration was successful
             console.log('The service worker logged the scope:', registration.scope);
@@ -189,4 +189,4 @@ class DBHelper {
             console.log('I failed. Here is what went wrong: ', err);
         });
     });
-}*/
+}

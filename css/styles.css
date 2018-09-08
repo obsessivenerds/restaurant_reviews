@@ -430,13 +430,17 @@ nav h1 a {
     max-width: 768px;
   }
 
-	nav, h1, a {
-		font-size: 24pt;
+	a {
+		font-size: 8pt;
+	}
+
+	nav h1 a {
+		font-size: 8pt;
 	}
 	.leaflet-touch .leaflet-control-attribution, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
     box-shadow: none;
     visibility: hidden;
-}
+	}
 
 	footer {
 		max-width: 768px;

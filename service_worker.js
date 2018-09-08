@@ -1,4 +1,4 @@
-/*var MY_CACHE = 'restaurant-app-s1';
+var MY_CACHE = 'restaurant-app-s1-v1';
 var urlsToCache = ['/', 'index.html', 'restaurant.html', '/css/styles.css', '/js/dbhelper.js', '/js/restaurant_info.js', '/js/main.js', 'data/restaurants.json', 'https://fonts.googleapis.com/css?family=Lato:300,400', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'];
 self.addEventListener('install', function(event) {
     // Perform install steps
@@ -38,4 +38,3 @@ self.addEventListener('activate', function(event) {
         }));
     }));
 });
-*/
