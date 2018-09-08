@@ -323,7 +323,7 @@ nav h1 a {
 
 /*Media queries*/
 
-/*iPhone*/
+/*iPhone and similar*/
 
 @media screen and (min-width: 375px) and (max-width: 414px) {
 
@@ -422,17 +422,13 @@ nav h1 a {
 
 
 
-/*Apple iPad*/
+/*Apple iPad and similar*/
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
 
   header {
     max-width: 768px;
   }
-
-	a {
-		font-size: 8pt;
-	}
 
 	nav h1 a {
 		font-size: 8pt;
@@ -488,10 +484,4 @@ nav h1 a {
         width: 100%;
         position: relative;
     }
-}
-
-/*Desktop*/
-
-@media screen and (min-width: 769px) {
-
 }
