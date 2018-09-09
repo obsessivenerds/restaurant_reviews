@@ -7,7 +7,7 @@ The goal of this project was to incrementally convert a static webpage to a mobi
 ### To view the project:
 
 1. Clone or download this repository.
-2. Use `python -m http.server 8000` to start a local server.
+2. Use `python -m SimpleHTTPServer 8000` to start a local server.
 3. Visit the site `http://localhost:8000`
 
 ### Dependencies
